@@ -3,7 +3,7 @@ FROM ghcr.io/static-web-server/static-web-server:2
 ENV \
     SERVER_COMPRESSION_LEVEL=fastest \
     SERVER_COMPRESSION=true \
-    SERVER_ERROR_PAGE_404=index.html \
+    SERVER_FALLBACK_PAGE=index.html \
     SERVER_EXPERIMENTAL_METRICS=true \
     SERVER_HEALTH=true \
     SERVER_LOG_FORWARDED_FOR=true \
